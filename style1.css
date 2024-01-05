@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 20;
+    background-color: wheat;
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+    background-color: white;
+    padding: auto;
+  }
+
+  h3 {
+    background-color: rgb(230, 217, 243);
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+  }
+  
+  .room-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .room {
+    background-color: rgb(233, 163, 174);
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  .buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#shuffleButton{
+    background-color:rgb(156, 236, 230);
+    color:black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#shuffleButton:hover {
+    background-color: rgb(108, 108, 207);
+    color:black;
+}
+
+  
